@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,F1,AUC,missed cancers (FN),false alarms (FP)
+Linear Regression (as scorer),0.9649,1.0,0.9048,0.95,0.997,4,0
+Logistic Regression,0.9649,0.975,0.9286,0.9512,0.996,3,1
+Decision Tree,0.9386,0.9487,0.881,0.9136,0.9225,5,2
+Random Forest,0.9737,1.0,0.9286,0.963,0.9944,3,0
